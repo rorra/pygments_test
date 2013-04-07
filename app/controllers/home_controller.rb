@@ -1,6 +1,7 @@
 class HomeController < ApplicationController
   def index
     @data = <<EOF
+    <pre class="lang-cpp prettyprint-override">    
 ~~~ cpp
 #include <fstream.h>
 
@@ -8,6 +9,7 @@ int main (int argc, char *argv[]) {
 return(0);
 }
 ~~~
+    </pre>
 EOF
   end
 
